@@ -30,7 +30,6 @@ export function Comment({ content,  OndeleteComment }) {
 
           <p>{content}</p>
         </div>
-
         <footer>
           <button onClick={handleLikeComment}>
             <ThumbsUp />
